@@ -9,7 +9,7 @@ const Article = (props) => {
             </div>
             <div className="article--main">
                 <p className="article--location">{props.location}</p>
-                <a href={props.googleMapsUrl} className="article--google-maps">View on Google Maps</a>
+                <a href={props.googleMapsUrl} target='blank' className="article--google-maps">View on Google Maps</a>
                 <h2 className="article--title">{props.title}</h2>
                 <p className="article--date-range">
                     <span className="article--start-date">{props.startDate} - </span>
